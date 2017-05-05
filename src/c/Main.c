@@ -30,14 +30,14 @@ static void main_window_load(Window *window) {
   
   //process and draw the image
   s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_BATMAN_LOGO);
-  s_background_layer = bitmap_layer_create(GRect(0, 60, bounds.size.w, 100));
+  s_background_layer = bitmap_layer_create(GRect(0, 60, bounds.size.w, 150));
   bitmap_layer_set_compositing_mode(s_background_layer, GCompOpSet);
   bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
   layer_add_child(window_layer, bitmap_layer_get_layer(s_background_layer));
   
   //create the textLayer with the specific bounds
   s_time_text = text_layer_create(
-    GRect(0, PBL_IF_ROUND_ELSE(55, 60), bounds.size.w, 50)
+    GRect(0, PBL_IF_ROUND_ELSE(65, 60), bounds.size.w, 50)
   );
   
   s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_BATMAN_FONT_25));
