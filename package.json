@@ -1,0 +1,39 @@
+{
+    "author": "com.jason.app",
+    "dependencies": {},
+    "keywords": [],
+    "name": "batmanface",
+    "pebble": {
+        "displayName": "BatmanFace",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/batman_font",
+                    "name": "BATMAN_FONT_30",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/batman_logo",
+                    "name": "BATMAN_LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "58f4fff1-af40-48d9-84d4-dede881d5ec8",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
