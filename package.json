@@ -11,6 +11,13 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/Batman_logo_tiny",
+                    "menuIcon": true,
+                    "name": "BATMAN_LOGO_TINY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
                     "file": "fonts/batman_font",
                     "name": "BATMAN_FONT_25",
                     "targetPlatforms": null,
