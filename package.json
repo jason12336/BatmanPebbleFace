@@ -12,7 +12,7 @@
             "media": [
                 {
                     "file": "fonts/batman_font",
-                    "name": "BATMAN_FONT_30",
+                    "name": "BATMAN_FONT_25",
                     "targetPlatforms": null,
                     "type": "font"
                 },
