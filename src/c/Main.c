@@ -37,7 +37,7 @@ static void main_window_load(Window *window) {
   
   //create the textLayer with the specific bounds
   s_time_text = text_layer_create(
-    GRect(0, PBL_IF_ROUND_ELSE(20, 20), bounds.size.w, 50)
+    GRect(0, PBL_IF_ROUND_ELSE(55, 60), bounds.size.w, 50)
   );
   
   s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_BATMAN_FONT_25));
@@ -49,7 +49,7 @@ static void main_window_load(Window *window) {
   
   //create teh textlayer for date with specific bounds
   s_date_text = text_layer_create(
-    GRect(0, PBL_IF_ROUND_ELSE(55, 20), bounds.size.w, 50)
+    GRect(0, PBL_IF_ROUND_ELSE(20, 20), bounds.size.w, 50)
   );
   
   s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_BATMAN_FONT_25));
